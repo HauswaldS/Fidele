@@ -1,0 +1,286 @@
+/* 
+
+Red: #FF251E
+Dark red : #780900
+Black : #333635
+Light grey : #EBE4E3
+
+*/
+
+
+/* General */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: #333635;
+    font-family: "Myriad Pro", Arial;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Typography */
+
+h2 {
+    font-size: 1.953rem;
+    text-align: center;
+    font-weight:400;
+    margin-bottom: -1.5rem;
+}
+
+h3 {
+    font-size: 1.363rem;
+    font-weight:600;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+a {
+    color: #FF251E;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+a:hover {
+    color: #780900;
+}
+
+nav ul li a {
+    color: #333635;
+    font-weight:bold;
+}
+
+img {
+    display:block;
+}
+
+/* Search Bar */
+
+#searchBar {
+    width: 100%;
+    background-color: #333635;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#searchBar input {
+    background-color: #969291;
+    background-image: url(../images-fidele/loupe.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-right: 10px;
+    color: white;
+}
+
+
+/* Header */
+
+#mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mainHeader img {
+    width: 100%;
+}
+
+#mainNav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+#mainNav ul {
+    width: 80%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+/* Slider */
+#slider {
+    width:100%;
+}
+
+#slider img {
+    width:100%;
+}
+
+/* Main Content */
+
+#mainContent {
+    display:flex;
+    justify-content:space-between;
+    align-content: space-between;
+    flex-wrap:wrap;
+}
+
+#mainContent article {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:48%;
+    margin-top:2rem;
+}
+
+#mainContent article img{
+ width: 50%;   
+}
+
+#mainContent .articleContent {
+    width: 45%;
+    display:flex;
+    flex-direction:column;
+}
+
+#mainContent .articleContent header {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+#mainContent .articleContent header time {
+    background-color:red;
+    color:white;
+    text-align: center;
+    padding:3% 1%;
+    font-size:.7rem;
+}
+
+.dayArticle {
+    font-size: 1.4rem;
+    display:block;
+}
+
+/* Second Navigation */
+
+#secondNav {
+    width:100%;
+    margin: 3rem 0;
+}
+
+#secondNav ul {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding-left:0;
+}
+
+#secondNav ul li {
+    background-color:#EBE4E3;
+    min-height:130px;
+    width:24%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all ease .5s;
+}
+#secondNav ul li:hover {
+    background-color:#FF251E;
+    color:white;
+}
+#secondNav ul li:hover a {
+    color:white;
+}
+
+#secondNav ul li i {
+    font-size:2.2rem;
+}
+
+#secondNav ul li a {
+    font-size:1.5rem;
+    font-weight:400;
+}
+
+/* Main Aside */
+aside {
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color:#EBE4E3;
+    padding:2rem 1rem;
+}
+
+aside article {
+    width:23%;
+    display:flex;
+    flex-direction: column;
+}
+
+#about img {
+    width:80%;
+}
+
+#about p {
+    padding-left:.5rem;
+}
+
+#contact a {
+    padding-bottom:.5rem;
+    color:#333635;
+}
+
+#contact img {
+    width:15%;
+}
+
+#contact h3:last-of-type {
+    margin-bottom:.5rem;
+}
+#partenairesImg {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+#partenairesImg img {
+    max-height:90px;
+   width:48%;
+    padding-bottom:.5rem;
+}
+
+/* Footer */
+
+footer {
+    background-color:#EBE4E3;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 .5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer nav {
+    width:40%;
+}
+
+footer ul {
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+footer ul li {
+    list-style:none;
+    width: 25%;
+}
